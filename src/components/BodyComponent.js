@@ -21,13 +21,6 @@ function BodyComponent() {
                 </List>
             </Box>
             
-            {/* <FormControl sx={{ my: 1 }} component="fieldset">
-                <FormGroup sx={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                    <Typography>Student's Date of Birth</Typography>
-                    <Typography sx={{justifyContent: 'flex-end'}}>Must be 13 years old or older to register</Typography>
-                </FormGroup>
-            </FormControl> */}
-
             <Box>
                 <Box sx={{display: 'flex', justifyContent: 'space-between'}}>
                     <Typography fontWeight={600} fontSize='1rem'>Student's Date of Birth</Typography>
@@ -103,23 +96,7 @@ function BodyComponent() {
         </Grid>
 
         <Grid md={5}>
-            {/* <ImageList >
-                <ImageListItem >
-                    <img src={boaterCard}/>
-                </ImageListItem>
-                <ImageListItem sx={{margin: '0 5rem'}}>
-                    <img src={boat}/>
-                </ImageListItem>
-            </ImageList> */}
             <Box align='left' position='relative'>
-                {/* <img src={boat}/>
-                <Box>
-                    <img sx={{  position: 'absolute',
-          top: -40,
-          left: '40%',
-          zIndex: '1',}} src={boaterCard}/>
-                </Box>
-                 */}
                  <Box
                     sx={{
                     position: 'absolute',
@@ -158,9 +135,7 @@ function BodyComponent() {
                     startIcon={<HelpOutlineIcon />}>
                     Support
                 </Button>
-                    
             </Box>
-            
         </Grid>
     </Grid>
   )
